@@ -8,7 +8,6 @@
     <title>Mads KKK</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="js/css3-animate-it-master/css/animations.css">
     <link rel="stylesheet" href="css/animation.css">
@@ -19,49 +18,75 @@
 
 <body>
 
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-toggleable-sm navbar-inverse bg-inverse">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarNavAltMarkup"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <a class="navbar-brand" href="#">
-            <img src="assets/images/m.png" width="40" height="30" class="d-inline-block align-top" alt=""> Maddie R
-            <form class=" d-inline-block ml-5">
-                <button class="btn btn-outline-primary" type="button">About me</button>
-                <button class="btn btn-outline-primary" type="button">My projects</button>
-                <button class="btn btn-outline-primary" type="button">Skills</button>
-                <button class="btn btn-outline-primary" type="button">Contact</button>
-            </form>
+            <img src="assets/images/m-logo2.png" width="60px" alt="">
         </a>
-    </nav>
-    <div class=" container-fluid nopadding">
-        <div id="splashscreen" class="col nopadding ">
-            <br>
-            <br>
-            <br>
-            <br>
-            <h1 class="green">Hi</h1>
-            <h2 class="pink">I'm Maddie</h2>
-            <h3 class="blue">I'm a creative front-end developer</h3>
-            <h4 class="orange">And I'm looking forward working with you!</h4>
+        <div class="collapse navbar-collapse justify-content-between" id="navbar">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link nav-color home icon" href="#" onclick="getHome()">Home</a>
+                <a class="nav-item nav-link nav-color icon" onclick="getAbout()">About me</a>
+                <a class="nav-item nav-link nav-color icon" href="#">Skills</a>
+                <a class="nav-item nav-link nav-color icon" href="#">Projects</a>
+                <a class="nav-item nav-link nav-color icon" href="#">Contact</a>
+            </div>
+            <div class="navbar-nav">
+            </div>
         </div>
-
-        <div id="aboutme" class="">
-                <div class="animatedParent">
-                        <div class="animated bounceInDown box">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quae velit quibusdam accusamus a consequuntur nemo minus iste distinctio blanditiis, in quia aliquid beatae omnis corporis repellendus esse vel commodi!
-                        Veniam sed molestias tempore! Quae et consequuntur dolorum sapiente, cumque blanditiis reiciendis. Sequi, magni, quasi officia distinctio laudantium architecto natus facilis illum, quisquam voluptates iste velit. Ipsam laboriosam quae repellendus?
-                        Provident soluta fuga inventore doloremque in commodi explicabo ipsa neque libero quam! Similique voluptatibus modi soluta culpa. Iure quam ea consectetur, sapiente repellat, natus quod placeat nemo aperiam ut iusto!
-                        Incidunt eius blanditiis consequuntur ad id at placeat ullam. Nam, nobis. Facere, nostrum officia tempora voluptatibus doloremque consequatur eos porro consectetur provident dolorum accusantium dolor non, inventore sit, dolores modi.
-                        Non nisi libero, officia nesciunt nulla excepturi repudiandae? Eligendi a eum aperiam similique accusantium dolorem alias possimus nulla magni? Alias consequuntur rerum earum deleniti aliquid laudantium natus fuga aperiam quidem!</div>
-                    </div>
-
-       
+    </nav>
+    <div class=" container-fluid m-0 p-0" id="home">
+        <div id="splashscreen" class="col animatedParent p-5 splash" data-sequence="700">
+            <div class=" text-left">
+                <h1 class="titleblue animated fadeIn " data-id="1">Hello World.</h1>
+                <br>
+                <br>
+                <h2 class="titlered animated fadeIn" data-id="2">I'm Maddie,</h2>
+                <h3 class="titlebluesm animated fadeIn" data-id="3">A
+                    <span class="red">very</span> creative front-end developer.</h3>
+            </div>
+        </div>
+        <div class="animatedParent">
+            <div id="rectangle" class="text-center animated fadeInLeft delay-2000">
+                <p>
+                    <i class="fas fa-home icon"></i>
+                </p>
+                <p>
+                    <i class="fas fa-heart icon"></i>
+                </p>
+                <p>
+                    <i class="fas fa-pencil-alt icon"></i>
+                </p>
+                <p>
+                    <i class="fas fa-list-alt icon"></i>
+                </p>
+                <p>
+                    <i class="fas fa-envelope icon"></i>
+                </p>
+            </div>
+        </div>
     </div>
+    <div class=" container-fluid m-0 p-0 hidden-xs-up" id="about">
+        <div class="splash" >
+                <h1 class="titlebluemd">About me</h1>
+        </div>
     </div>
 
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c"
+        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
         crossorigin="anonymous"></script>
-        <script src="js/css3-animate-it-master/js/css3-animate-it.js"></script>
+    <script src="js/css3-animate-it-master/js/css3-animate-it.js"></script>
     <script src="js/app.js"></script>
 </body>
 

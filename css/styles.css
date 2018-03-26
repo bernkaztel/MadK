@@ -1,83 +1,72 @@
-#splashscreen {
-  height: 70vh;
-  background: linear-gradient( rgb(226, 226, 226), rgba(255, 255, 255, 0));
+.splash{
+  height: 89vh;
+  width: 100%;
+  background-image: url(../assets/images/7135.jpg);
+  background-origin: border-box;
+  background-size: cover;
   text-align: center;
-  padding-top:10em;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo", sans-serif;
+  position: absolute;
 }
 
-.nopadding{
+.navbar´ {
+  height: 10vh;
+}
+.nopadding {
   margin: 0 !important;
   padding: 0 !important;
 }
 
-.green{
-  color: #E0E300;
+.titleblue {
+  font-size: 80px;
+  color: aqua;
+  margin-top: 7vh;
 }
 
-.pink{
-  color: #FF598F;
+.bg-banner {
+  margin-left: 90%;
 }
 
-.blue{
-  color: #01DDDD;
-}
-.orange{
-  color: #FD8A5E;
-}
-
-.white{
-  color: white;
-}
-#splashscreen h1 {
+.titlered {
   font-size: 70px;
+  color: rgb(255, 0, 0);
 }
 
-#splashscreen h2 {
-  font-size: 60px;
+.titlebluesm {
+  font-size: 30px;
+  color: aqua;
 }
 
-#splashscreen h3 {
+
+.titlebluemd {
   font-size: 50px;
+  margin-top: 7vh;
+  color: aqua !important;
 }
 
-#splashscreen h4 {
-  font-size: 40px;
+.nav-color {
+  color: aqua !important;
 }
 
-#aboutme{
-background-color: #01DDDD;
-transform: skewY(-4deg);
+.icon:hover {
+  color: aqua !important;
 }
 
-
-#aboutme header {
+.red{
+  color: red;
+  font-size: 25px;
+}
+#rectangle {
+  background-color: rgb(255, 0, 0);
   position: relative;
-  height: 300px;
-  overflow: hidden;
-}
-
-#aboutme .header__bg {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  width: 100%;
-  height: 60%;
-  background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
-  transform: skewY(-6deg);
-  transform-origin: top left;
-}
-
-#aboutme h1 {
-  margin: 0;
-  font: 44px "Arial";
-  text-align: center;
-}
-
-#aboutme header h1 {
-  position: relative;
-  font-size: 50px;
-  font-family: 'Arimo', sans-serif;
+  float: right;
+  top: 100px;
+  width: 10vh;
+  height: calc(100% - 50vh);
+  width: calc(10% - 100px);
+  height: 60vh;
+  color: white;
+  font-size: 25px;
+  padding-top: 70px;
+  line-height: 40px;
 }
