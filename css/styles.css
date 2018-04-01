@@ -1,72 +1,220 @@
-.splash{
-  height: 89vh;
-  width: 100%;
-  background-image: url(../assets/images/7135.jpg);
-  background-origin: border-box;
-  background-size: cover;
-  text-align: center;
-  font-family: "Arimo", sans-serif;
+body{
+  background-color: #EFF9F4}
+
+ul{
+  list-style-type: none;
+}
+
+.navbar {
+  border-width: 0px;
+  -webkit-box-shadow: 0px 0px;
+  box-shadow: 0px 0px;
+  background-color: rgba(0,0,0,0.0);
+  background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+  background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+  background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+
+
+.text-square{
+  background-color: #64489282;
   position: absolute;
+  top: 20%;
+  text-align: center;
+  line-height: 50px;
+  left: 95%;
+  width: calc(100% - 95%);
+  height: calc(100% -10%);
 }
 
-.navbar´ {
-  height: 10vh;
-}
-.nopadding {
-  margin: 0 !important;
-  padding: 0 !important;
+.bar-icon{
+  color: #FF0084 !important;
 }
 
-.titleblue {
-  font-size: 80px;
-  color: aqua;
-  margin-top: 7vh;
+
+
+
+.icon{
+  color: rgb(51, 48, 112) !important;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 10px;
+  font-family: 'Alegreya Sans SC', sans-serif;
 }
 
-.bg-banner {
-  margin-left: 90%;
+
+
+.icon1{
+  color: FF0084;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 10px;
+  font-family: 'Alegreya Sans SC', sans-serif;
 }
 
-.titlered {
+.icon-act{
+border-bottom: 2px solid #FF0084;
+color: #FF0084 !important;
+font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.icon-act1{
+  border-bottom: 1px solid #3F39A0;
+  border-top: 1px solid #3F39A0;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  }
+
+.titleblue{
+  color: #3F39A0;
+  font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 70px;
-  color: rgb(255, 0, 0);
 }
 
-.titlebluesm {
-  font-size: 30px;
-  color: aqua;
-}
-
-
-.titlebluemd {
+.subtitlepink{
+  color: #FF0084;
+  font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 50px;
-  margin-top: 7vh;
-  color: aqua !important;
 }
 
-.nav-color {
-  color: aqua !important;
+.subsubtitlepink{
+  color: #FF0084;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 40px;
+  text-align: center;
 }
 
-.icon:hover {
-  color: aqua !important;
+.subsubtitlepinky{
+  color: #FF0084;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 20px;
+  text-align: center;
 }
 
-.red{
-  color: red;
+.subsubtitleblue{
+  color: #3F39A0;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+.very{
+  color: #FF0084;
   font-size: 25px;
+  line-height: 30px;
 }
-#rectangle {
-  background-color: rgb(255, 0, 0);
-  position: relative;
-  float: right;
-  top: 100px;
-  width: 10vh;
-  height: calc(100% - 50vh);
-  width: calc(10% - 100px);
-  height: 60vh;
-  color: white;
-  font-size: 25px;
-  padding-top: 70px;
-  line-height: 40px;
+
+.subtitleblue{
+  color: #3F39A0;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 40px;
 }
+
+.text-home{
+  position: absolute;
+  top: 10%;
+}
+
+#particles-js{
+  width: 90%;
+  height: 75vh;
+}
+
+.space{
+  margin: 30px;
+}
+.bigicon{
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.479);
+  margin-bottom: 20px;
+}
+
+  .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.nav li {
+    font-size:12pt;
+    display:block;
+    float: left;
+    color: #F70080;
+    height:100px;
+    width: 75px; /*new*/
+    text-align: center; /*new*/
+    transition: all 0.2s ease-in-out;
+}
+
+.nav .home {
+    background: #60458C;
+}
+.nav .about {
+    background: #00BEC9;
+}
+.nav .projects {
+    background: #199587;
+}
+.nav .contact {
+    background: #A4EA7B;
+}
+.nav li a {
+    font-family: FontAwesome;
+    color:#eee;
+    font-size:22pt;
+    text-decoration: none;
+    display: block;
+    padding:15px;
+}
+.nav li i {
+    color:#F70080;
+    padding:0 10px;
+}
+.nav li span {
+    display: none;
+}
+.nav a:hover {
+    color: #F70080;
+}
+.nav a:hover i {
+    display: none;
+}
+.nav a:hover span {
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.pink{
+  background-color:#F70080;
+}
+
+.green{
+  background-color:#A4EA7B;
+}
+
+.bigicon:hover { 
+    font-size:4em;
+    transition: 1s ease-out;
+  }
+
+  .bigicon2:hover { 
+width: 65px;
+transition: 1s ease-out;
+  }
+
+  .project{
+    width: 200px;
+    margin: 35px;
+    text-align: center;
+  }
+
+  .gotpic{
+    height: 500px;
+
+  }
+
+ .pinkc{
+    color: #F70080;
+    background-color: #F70080;
+      }
