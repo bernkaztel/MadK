@@ -32,6 +32,9 @@ ul{
 }
 
 
+.littlefont{
+  font-size: 14px;
+}
 
 
 .icon{
@@ -79,7 +82,7 @@ font-family: 'Alegreya Sans SC', sans-serif;
 .subsubtitlepink{
   color: #FF0084;
   font-family: 'Alegreya Sans SC', sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -204,13 +207,13 @@ transition: 1s ease-out;
   }
 
   .project{
-    width: 200px;
+    width: 150px;
     margin: 35px;
     text-align: center;
   }
 
   .gotpic{
-    height: 500px;
+    height: 450px;
 
   }
 
